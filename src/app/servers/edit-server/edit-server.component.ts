@@ -27,7 +27,7 @@ export class EditServerComponent implements OnInit {
       this.allowEdit = params["allowEdit"] === "1" ? true : false;
     });
 
-    console.log(this.allowEdit);
+    // console.log(this.allowEdit);
 
     let id = +this.routes.snapshot.params["id"];
 
